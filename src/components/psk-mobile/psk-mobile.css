@@ -6,9 +6,14 @@
 }
 
 :host(.fullHeightWithFooter) main {
-    height: calc(100vh - 14rem)!important;
+    height: calc(100vh - 13rem)!important;
 }
 
 :host(.fullHeightWithoutFooter) main {
     height: calc(100vh - 4rem)!important;
+}
+
+::slotted(iframe) {
+    height: 100% !important;
+    width: 100% !important;
 }
