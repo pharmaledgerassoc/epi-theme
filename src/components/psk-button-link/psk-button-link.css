@@ -5,6 +5,15 @@
 
 [slot='footer'] psk-link > *,
 [slot='footer'] psk-link .icon {
-    padding: 0; margin: 0;
+    padding: 0;
+    margin: 0;
     color: #4461B5;
+}
+
+[slot='footer'] psk-link .icon.fa {
+    font-size: x-large !important;
+}
+
+.xxlIcon .fa {
+    font-size: 50px !important;
 }
