@@ -5,3 +5,12 @@
 .summary .icon {
     color: #4461B5;
 }
+
+:host([layout="collapsable"]) .content {
+    background-color: #c8e1bd !important;
+}
+
+:host([layout="collapsable"]) .footer {
+    background-color: #c8e1bd !important;
+}
+

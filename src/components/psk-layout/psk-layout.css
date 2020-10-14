@@ -1,0 +1,6 @@
+:host(.coloredBackground){
+    background-color: #c8e1bd !important;
+}
+:host(.topPadding) {
+    padding-top: 50px;
+}

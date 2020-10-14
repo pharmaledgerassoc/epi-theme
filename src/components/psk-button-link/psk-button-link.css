@@ -15,5 +15,27 @@
 }
 
 .xxlIcon .fa {
-    font-size: 50px !important;
+    font-size: 40px;
+    margin-left: 38px;
+}
+
+.redIcon .fa {
+    color: #ff0700 !important;
+}
+
+.blackIcon .fa {
+    color: black !important;
+}
+
+.purpleIcon .fa {
+    color: #585eb2;
+}
+
+.cabinetIcon .fa {
+    margin-left: 26px !important;
+    color: black;
+}
+
+div {
+    color: black;
 }
