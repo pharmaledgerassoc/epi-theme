@@ -7,6 +7,7 @@
     overflow: hidden;
     width: 100%;
     position: relative;
+    height: calc(100vh - 13rem)!important;
 }
 
 #psk-content-slider {

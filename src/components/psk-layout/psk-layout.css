@@ -4,3 +4,6 @@
 :host(.topPadding) {
     padding-top: 50px;
 }
+:host(.smallTopPadding) {
+    padding-top: 20px;
+}
