@@ -40,3 +40,8 @@
     min-width: 30px !important;
     min-height: 39px !important;
 }
+
+:host(.background) main {
+    background-image: url('/assets/images/Favorite.png');
+    height: 100%;
+}

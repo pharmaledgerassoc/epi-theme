@@ -14,3 +14,7 @@
     font-size: 14px !important;
     font-weight: bolder !important;
 }
+
+:host([layout="default"]) .title:focus {
+    border: 0 !important;
+}

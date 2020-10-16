@@ -18,3 +18,7 @@
     color: #4461B5 !important;
 }
 
+:host([layout="collapsable"][opened]),
+:host([layout="collapsable"][opened="true"]) {
+    box-shadow: rgba(0, 0, 0, 0.1) 0 3px 6px !important;
+}
