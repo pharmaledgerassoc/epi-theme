@@ -11,7 +11,7 @@
 }
 
 :host(.fullHeightWithFooter) main {
-    height: calc(100vh - 13rem)!important;
+    height: calc(100vh - 11rem) !important;
 }
 
 :host(.fullHeightWithoutFooter) main {
@@ -25,4 +25,18 @@
 
 .mobile > header > .title {
     font-size: 1.2rem !important;
+}
+
+.mobile > header {
+    height: 38px !important;
+    background-color: #4461B5 !important;
+}
+
+.mobile > header .aside-menu {
+    top: 37px !important;
+}
+
+.mobile > header .btn {
+    min-width: 30px !important;
+    min-height: 39px !important;
 }

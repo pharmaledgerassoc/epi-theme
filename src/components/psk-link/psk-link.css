@@ -112,3 +112,7 @@
     text-align: center;
     background-color: transparent;
 }
+
+:host(.alignBottom) div {
+    margin-bottom: -5px !important;
+}

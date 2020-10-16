@@ -7,10 +7,14 @@
 }
 
 :host([layout="collapsable"]) .content {
-    background-color: #c8e1bd !important;
+    background-color: #c8ecf8 !important;
 }
 
 :host([layout="collapsable"]) .footer {
-    background-color: #c8e1bd !important;
+    background-color: #c8ecf8 !important;
+}
+
+:host([layout="collapsable"]) .footer .icon {
+    color: #4461B5 !important;
 }
 

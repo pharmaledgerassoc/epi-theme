@@ -6,3 +6,8 @@
 .icon.disable-color {
     color: #999 !important;
 }
+
+psk-icon {
+    display: block;
+    text-align: center;
+}
