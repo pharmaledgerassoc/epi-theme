@@ -41,7 +41,7 @@
     min-height: 39px !important;
 }
 
-:host(.background) main {
+/* :host(.background) main {
     background-image: url('/assets/images/Favorite.png');
     height: 100%;
-}
+}  */
