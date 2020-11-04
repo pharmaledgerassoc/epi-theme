@@ -27,6 +27,7 @@
 
 #psk-slider-mask {
     overflow: hidden;
+    height: 100% !important;
 }
 
 #psk-slider ul {
