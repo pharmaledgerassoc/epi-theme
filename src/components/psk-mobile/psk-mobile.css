@@ -1,8 +1,10 @@
 /* Use mode="layout" for psk-mobile, if you want to style anything from component children */
 /* Use mode="default" with !important specifier if you want to override defaults from (Cardinal) styles/imports/colors.css */
+
 :host footer {
     border-top: 1px solid #FFFFFF;
     background-color: #FFFFFF;
+    box-shadow: -1px 6px 29px -6px rgba(0,0,0,0.75);
 }
 
 :host(.pdfViewer) main,
@@ -14,8 +16,16 @@
     height: calc(100vh - 11rem) !important;
 }
 
+:host(.fullHeightWithFooter) main .coloredBackground {
+    padding-top: 10px !important;
+}
+
 :host(.fullHeightWithoutFooter) main {
     height: calc(100vh - 4rem)!important;
+}
+
+:host(.historyPage) main {
+    background-color: #134E9E !important;
 }
 
 ::slotted(iframe) {
@@ -23,17 +33,48 @@
     width: 100% !important;
 }
 
+.mobile > main {
+    background-color: #FFFFFF !important;
+}
+
+.mobile > main .main-cover {
+    position: absolute !important;
+    top: 50px !important;
+}
+
 .mobile > header > .title {
     font-size: 1.2rem !important;
 }
 
 .mobile > header {
-    height: 38px !important;
-    background-color: #4461B5 !important;
+    height: 50px !important;
 }
 
 .mobile > header .aside-menu {
     top: 37px !important;
+}
+
+.mobile > header .aside-menu psk-app-menu {
+    margin-top: 100px;
+}
+
+.mobile > header,
+.mobile > header .aside-menu {
+    background-color: #00345B !important;
+}
+
+.mobile > header .aside-toggler::after
+{
+    color: #FFFFFF;
+    content: "Electronic Product Information";
+    padding-left: 85px;
+    background-image: url(/assets/images/pharmaledger-logo-negative.svg);
+    background-size: 80px 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 13px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .mobile > header .btn {

@@ -8,7 +8,50 @@ psk-label{
 }
 
 .drugName {
-    color: #00345B !important;
-    font-size: 21px !important;
+    color: #FFFFFF !important;
+    font-size: 17px !important;
     font-weight: bold !important;
+}
+
+.manufName {
+    font-size: 15px !important;
+}
+
+.productItem_name,
+.productItem_manufName,
+.productItem_expiry {
+    color: #00345B;
+}
+
+.productItem_name {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.productItem_manufName {
+    font-size: 10px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.productItem_manufName::before {
+    content: "            ";
+    white-space: pre;
+    text-decoration: line-through;
+    position: absolute;
+    color: #00345B;
+    padding-top: 20px;
+}
+
+.productItem_expiry {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.small-text {
+    font-weight: 700;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

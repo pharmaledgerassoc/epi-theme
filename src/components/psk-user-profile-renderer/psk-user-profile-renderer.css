@@ -33,3 +33,7 @@ p {
 p:first-of-type {
     grid-row: 1/ span 2;
 }
+
+.profile {
+    display: none;
+}

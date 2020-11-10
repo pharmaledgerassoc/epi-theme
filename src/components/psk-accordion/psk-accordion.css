@@ -1,3 +1,7 @@
 :host {
     box-shadow: none !important;
 }
+
+:host > * {
+    margin-bottom: 10px !important;
+}
