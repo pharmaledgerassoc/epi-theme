@@ -27,9 +27,10 @@ a,
 .item_container .item_name {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-size: 1rem;
     cursor: pointer;
     font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 .item_container .item_name:before {
