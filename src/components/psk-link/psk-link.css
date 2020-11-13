@@ -107,12 +107,18 @@
 }
 
 :host(.footer-item) .psk-link {
-    margin: 0; border: 0; border-radius: 0;
-    padding: 0.25rem 0.75rem;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
     text-align: center;
     background-color: transparent;
 }
 
 :host(.alignBottom) div {
     margin-bottom: -5px !important;
+}
+
+:host(.alignBottom) {
+    width: 25%;
+    height: 100%;
 }

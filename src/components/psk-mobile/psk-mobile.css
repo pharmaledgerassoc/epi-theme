@@ -68,6 +68,10 @@
     min-height: 39px !important;
 }
 
+::slotted([slot="footer"]) {
+    padding: 0 !important;
+}
+
 /*
 :host(.background) main {
     background-image: url('/assets/images/Favorite.png');

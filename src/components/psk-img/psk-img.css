@@ -35,3 +35,10 @@ img.productStatusImg {
     margin-top: 0!important;
 }
 
+.navbar-img .image_container {
+    height: 60px;
+}
+
+.navbar-img .image_wrapper {
+    padding-top: 20%;
+}
