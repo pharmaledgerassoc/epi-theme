@@ -36,7 +36,7 @@ function updateDossier(bar, callback) {
             throw err;
         }
 
-        bar.addFolder("src", "/", (err, archiveDigest) => {
+        bar.addFolder("src", "/", {batch: true, encrypt: false}, (err, archiveDigest) => {
             if (err) {
                 return callback(err);
             }
