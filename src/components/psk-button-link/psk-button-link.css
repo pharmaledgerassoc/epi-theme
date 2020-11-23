@@ -6,16 +6,33 @@
     font-size: x-large !important;
 }
 
+.xlIcon {
+    font-size: 12px;
+    width: 80px;
+    height: 80px;
+}
+
 .xxlIcon {
     width: 100px;
     height: 100px;
+}
+
+.xlIcon, .xxlIcon {
     padding: 10px;
     border-radius: 3px;
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.78);
 }
 
+.xlIcon .fa {
+    font-size: 35px;
+}
+
 .xxlIcon .fa {
     font-size: 40px;
+}
+
+.xlIcon .fa,
+.xxlIcon .fa {
     text-align: center;
     color: #00345B;
 }

@@ -6,3 +6,16 @@
 .container {
     max-width: 100%!important;
 }
+
+.scan-error-form {
+    color: #00345B;
+    padding: 10px 20px;
+}
+
+.sca n-error-form .container{
+    padding: 10px 20px;
+}
+
+.scan-error-message-label {
+    margin-bottom: 15px;
+}

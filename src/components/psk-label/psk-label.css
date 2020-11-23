@@ -69,3 +69,15 @@ psk-label{
     display: table;
     margin: 0 auto;
 }
+
+.scan-error-title {
+    color: #00345B;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.scan-error-message {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
