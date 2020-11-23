@@ -9,6 +9,10 @@
     padding: 0 !important;
 }
 
+:host(.smpc-mobile) main{
+    padding-right: 0 !important;
+}
+
 :host(.historyPage) main {
     background-color: #134E9E !important;
 }

@@ -73,7 +73,11 @@ psk-label{
 .scan-error-title {
     color: #00345B;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 22px;
+}
+
+.smpc-error-title {
+    font-size: 16px !important;
 }
 
 .scan-error-message {

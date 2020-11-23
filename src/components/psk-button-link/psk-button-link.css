@@ -58,3 +58,9 @@ div {
     color: black;
     text-align-last: center!important;
 }
+
+.go-back-link .fa {
+    margin: 0;
+    font-size: 25px;
+    margin-right: 10px;
+}
