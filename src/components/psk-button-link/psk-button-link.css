@@ -56,9 +56,13 @@
 
 div {
     color: black;
-    text-align-last: center!important;
+    line-height: 1.3 !important;
+    text-align: center !important;
 }
 
+.smpc div {
+    line-height: inherit !important;
+}
 .go-back-link .fa {
     margin: 0;
     font-size: 25px;
