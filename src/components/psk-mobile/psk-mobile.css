@@ -58,7 +58,7 @@
     color: #FFFFFF;
     content: "Electronic Product Information";
     padding-left: 85px;
-    background-image: url(/assets/images/pharmaledger-logo-negative.svg);
+    background-image: url(assets/images/pharmaledger-logo-negative.svg);
     background-size: 80px 20px;
     background-repeat: no-repeat;
     position: absolute;
@@ -78,7 +78,7 @@
 
 /*
 :host(.background) main {
-    background-image: url('/assets/images/Favorite.png');
+    background-image: url('assets/images/Favorite.png');
     height: 100%;
 }
 */
