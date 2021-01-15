@@ -85,3 +85,7 @@ psk-label{
     font-weight: bold;
     font-size: 18px;
 }
+
+.text-centered label {
+    text-align: center;
+}

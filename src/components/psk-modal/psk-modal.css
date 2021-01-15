@@ -1,0 +1,17 @@
+:host(.mobile-modal) .psk-modal {
+    left: 40%;
+    width: 20%;
+    top: 40% !important;
+}
+
+:host(.mobile-modal) .psk-modal .modal-header .toolbar button {
+    display: none;
+}
+
+:host(.mobile-modal) .modal-footer {
+    justify-content: center;
+}
+
+:host(.mobile-modal) .modal-body label {
+    text-align: center;
+}

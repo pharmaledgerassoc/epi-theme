@@ -89,3 +89,13 @@ psk-mobile [slot='footer'] .btn span {
 psk-button.fullWidth button{
     width: 100%;
 }
+
+.epi-button .btn.btn-primary:focus,
+.epi-button .btn.btn-primary:not(:disabled):not(.disabled):active,
+.epi-button .submit,
+.epi-button .btn.btn-primary{
+    background: #00345b;
+}
+.epi-button .btn.btn-primary {
+    width: 120px;
+}
