@@ -4,7 +4,7 @@
   "description": "",
   "main": " ",
   "scripts": {
-    "build-dossier": "node ./bin/build_dossier.js"
+    "build-dossier": "node ./node_modules/octopus/scripts/buildDossier.js --bundles=./../../privatesky/psknode/bundles"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/PharmaLedger-IMI/epi-theme/issues"
   },
-  "homepage": "https://github.com/PharmaLedger-IMI/epi-theme/#readme"
+  "homepage": "https://github.com/PharmaLedger-IMI/epi-theme/#readme",
+  "dependencies": {
+    "octopus": "git+http://github.com/privatesky/octopus.git"
+  }
 }
