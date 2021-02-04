@@ -25,16 +25,17 @@
 
 .xlIcon .fa {
     font-size: 35px;
+    color: #cecece;
 }
 
 .xxlIcon .fa {
     font-size: 40px;
+    color: #00345B;
 }
 
 .xlIcon .fa,
 .xxlIcon .fa {
     text-align: center;
-    color: #00345B;
 }
 
 .redIcon .fa {
