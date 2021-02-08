@@ -5,7 +5,7 @@
 }
 
 :host(.topPadding) {
-    padding-top: 40px;
+    padding-top: 50px;
 }
 
 :host(.productItem) {
