@@ -25,11 +25,17 @@
 
 .xlIcon .fa {
     font-size: 35px;
-    color: #cecece;
 }
 
 .xxlIcon .fa {
     font-size: 40px;
+}
+
+.xlIcon.inactive .fa, .xxlIcon.inactive .fa {
+    color: #cecece;
+}
+
+.xlIcon.active .fa, .xxlIcon.active .fa {
     color: #00345B;
 }
 
