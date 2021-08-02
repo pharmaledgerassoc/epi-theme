@@ -10,6 +10,7 @@
 
 :host([layout="default"]) .title {
     position: relative;
+    align-items: baseline !important;
 }
 
 :host([layout="default"]) .title .rotated .icon,
@@ -43,6 +44,7 @@
     color: #00345B !important;
     font-size: 13px !important;
     font-weight: bolder !important;
+    text-align: left;
 }
 
 :host([layout="default"]) .title:focus {
@@ -52,10 +54,9 @@
 :host([layout="default"]) .title::before {
     content: "          ";
     white-space: pre;
-    text-decoration: line-through;
     position: absolute;
     color: #00345B;
-    padding-top: 20px;
+    border-bottom: 1px solid;
 }
 
 :host([layout="default"][opened]) .title::before,
