@@ -65,6 +65,9 @@ div {
     color: black;
     line-height: 1.3 !important;
     text-align: center !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .smpc div {
@@ -75,3 +78,4 @@ div {
     font-size: 25px;
     margin-right: 10px;
 }
+

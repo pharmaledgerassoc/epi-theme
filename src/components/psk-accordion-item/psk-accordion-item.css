@@ -51,14 +51,6 @@
     border: 0 !important;
 }
 
-:host([layout="default"]) .title::before {
-    content: "          ";
-    white-space: pre;
-    position: absolute;
-    color: #00345B;
-    border-bottom: 1px solid;
-}
-
 :host([layout="default"][opened]) .title::before,
 :host([layout="default"][opened="true"]) .title::before {
     color: #D6A229 !important;
