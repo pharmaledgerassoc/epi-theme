@@ -4,7 +4,7 @@
   "description": "",
   "main": " ",
   "scripts": {
-    "build-dossier": "node ./../node_modules/octopus/scripts/buildDSU.js --bundles=./../../privatesky/psknode/bundles"
+    "build-dossier": "node ./node_modules/octopus/scripts/buildDSU.js --bundles=./../../privatesky/psknode/bundles"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,6 @@
   },
   "homepage": "https://github.com/PharmaLedger-IMI/epi-theme/#readme",
   "dependencies": {
+    "octopus": "git+http://github.com/privatesky/octopus.git"
   }
 }
